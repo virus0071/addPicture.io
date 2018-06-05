@@ -1,0 +1,25 @@
+.jumbotron {
+    background-color: yellowgreen; 
+    color:white;
+    font-family:'Permanent Marker', cursive;
+}
+
+label {
+    font-family: 'Titan One', cursive;
+    font-size: 30px;
+}
+
+#car-input {
+    width:25%;
+}
+
+#add-car {
+    margin-top:2%;
+}
+
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
