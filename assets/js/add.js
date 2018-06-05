@@ -57,7 +57,7 @@ $(document).on("click", ".car", function() {
             carImage.attr("data-still", still);
             carImage.attr("data-animate", animated);
             carImage.attr("data-state", "still");
-            carImage.addClass("carImage");
+            carImage.addClass("carImages");
 
             carDiv.append(p);
             carDiv.append(carImage);
@@ -66,7 +66,7 @@ $(document).on("click", ".car", function() {
       });
   });
 
-  $(document).on("click", ".carImage", function(){
+  $(document).on("click", ".carImages", function(){
     var state = $(this).attr("data-state");
     if (state === "still") {
         $(this).attr("src", $(this).attr("data-animate"));
