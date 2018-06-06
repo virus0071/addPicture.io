@@ -25,7 +25,7 @@ $("#add-car").on("click", function(event) {
     renderButtons();
 });
 
-$(document).on("click", ".car", displayCarInfo);
+
 renderButtons();
 
 $(document).on("click", ".car", function() {
