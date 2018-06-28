@@ -21,7 +21,7 @@ $("#add-car").on("click", function(event) {
     event.preventDefault();
     var car = $("#car-input").val().trim();
     cars.push(car);
-    console.log(cars);
+    
     renderButtons();
 });
 
@@ -42,9 +42,7 @@ $(document).on("click", ".car", function() {
         })
 
         .then(function(response) {
-          console.log(queryURL);
-
-          console.log(response);
+          
         var results = response.data;
 
         for (var i = 0; i < results.length; i++) {
